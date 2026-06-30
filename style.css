@@ -1,0 +1,131 @@
+
+
+/* reset -------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* fontes ------------------------------------ */
+@font-face {
+    font-family:"Unbounded" ;
+    src: url("/Projeto_Tecboard/fontes/Unbounded-Bold.ttf")
+    format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/Projeto_Tecboard/fontes/Poppins-Regular.ttf")
+    format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Estilo desktop------------------------------------*/
+
+body{
+    background-color: #0E1014;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    
+
+
+}
+
+header img{
+    margin: 75px auto 0 360px;
+}
+
+h1{
+    font-family: "Unbounded", sans-serif;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 span{
+    color: #9747ff;
+}
+
+
+p{
+    font-size: 24px;
+    text-align: center;
+    margin: 24px auto 0;
+    width: 792px;
+}
+
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 36px;
+    background-color: #9747ff;
+    font-size: 24px;
+    height: 66px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;  
+
+}
+
+a:hover{
+    background-color: #8233e8;
+}
+
+section img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0;
+}
+
+
+/* responsividade tablet------------------- */
+@media(max-width: 768px){
+    
+    header img{
+        margin: 65px 0 0 60px;
+    }
+
+    p{
+        width: 648px;
+    }
+
+}
+
+/* responsividade mobile */
+@media(max-width: 375px){
+    header img{
+        margin: 32px 0 0 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+        width: 341px;
+    }
+    
+    a{
+        width: 241px;
+        font-size: 20px;
+    }
+
+    section img{
+        height: 230px;
+        width: 341px;
+    }
+    
+
+}
